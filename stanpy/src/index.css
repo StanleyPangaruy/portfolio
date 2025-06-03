@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* Optional: add custom styling using @layer */
+/* @layer base {
+  body {
+    @apply bg-white text-gray-900;
+  }
+} */
