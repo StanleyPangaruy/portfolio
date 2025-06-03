@@ -25,7 +25,8 @@ function Projects() {
               title: "Temperature and Humidity Monitoring System",
               description: "IoT-based system for real-time temperature and humidity monitoring with data visualization using DHT11 and ESP32.",
               tech: ["PHP", "ESP32", "C++", "MySQL"],
-              gradient: "from-blue-500 to-cyan-500"
+              gradient: "from-blue-500 to-cyan-500",
+              link: "https://github.com/StanleyPangaruy/dht11-esp32"
             },
             {
               title: "Valorant Lootbox Simulator",
