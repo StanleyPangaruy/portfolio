@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { ChevronDown, Github, Linkedin, Mail, MapPin, Calendar, Code, Cpu, Zap, ExternalLink, Menu, X, Facebook, Twitch, MessageCircleMore } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { ChevronDown, Github, Linkedin, Mail, Code, Cpu, Zap, Menu, X, Facebook, Twitch, MessageCircleMore } from 'lucide-react';
 
 import SocialLinks from './pages/SocialLinks.tsx';
 import Projects from './pages/Projects.tsx';
@@ -229,14 +229,14 @@ function App() {
       <SocialLinks />
 
       {/* Footer */}
-<footer className="py-12 text-center border-t border-white/10">
-  <div className="max-w-6xl mx-auto px-6">
-    <div className="mb-6">
-      <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-2">
-        STANPY
-      </div>
-      <p className="text-gray-400">Stanley John O. Pangaruy</p>
-    </div>
+      <footer className="py-12 text-center border-t border-white/10">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="mb-6">
+            <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-2">
+              STANPY
+            </div>
+            <p className="text-gray-400">Stanley John O. Pangaruy</p>
+          </div>
 
           <div className="flex justify-center flex-wrap gap-6 mb-8">
             <a href="https://github.com/stanleypangaruy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors">

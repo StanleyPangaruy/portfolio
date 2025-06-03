@@ -3,7 +3,6 @@ import {
   Linkedin,
   Mail,
   Facebook,
-  Twitter,
   Twitch,
   MessageCircleMore,
 } from 'lucide-react';

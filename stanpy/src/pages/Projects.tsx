@@ -30,7 +30,7 @@ function Projects() {
             {
               title: "Valorant Lootbox Simulator",
               description: "A fun simulator for opening Valorant lootboxes, featuring a sleek UI and random item generation.",
-              tech: ["Python", "TypeScript Learning", "CSS", "JavaScript", "HTML"],
+              tech: ["Python", "TypeScript", "CSS", "JavaScript", "HTML"],
               gradient: "from-green-500 to-emerald-500",
               link: "https://valorant-lootbox.vercel.app/"
             }
