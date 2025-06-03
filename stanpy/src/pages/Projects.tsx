@@ -34,7 +34,21 @@ function Projects() {
               tech: ["Python", "TypeScript", "CSS", "JavaScript", "HTML"],
               gradient: "from-green-500 to-emerald-500",
               link: "https://valorant-lootbox.vercel.app/"
-            }
+            },
+            {
+              title: "2025 NBA Finals Prediction",
+              description: "Predicting the 2025 NBA Finals winner using machine learning and historical data analysis.",
+              tech: ["Python", "Streamlit", "scikit-learn", "Pandas", "NumPy"],
+              gradient: "from-indigo-500 to-sky-500",
+              link: "https://okcvsind2025.streamlit.app/"
+            },
+            {
+              title: "LeBron James Career Statistics Dashboard",
+              description: "Interactive dashboard showcasing LeBron James' career statistics with data visualization.",
+              tech: ["Python", "Streamlit", "matplotlib", "Pandas", "SeaBorn"],
+              gradient: "from-yellow-500 to-orange-500",
+              link: "https://whatthehellebron.streamlit.app/"
+            },
           ].map((project, index) => (
             <div key={index} className="group relative">
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all duration-300 transform hover:scale-105 hover:rotate-1">
