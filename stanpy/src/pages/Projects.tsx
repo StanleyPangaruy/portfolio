@@ -49,6 +49,13 @@ function Projects() {
               gradient: "from-yellow-500 to-orange-500",
               link: "https://whatthehellebron.streamlit.app/"
             },
+            {
+              title: "SK Gomez CMS",
+              description: "Content management system for managing SK Gomez's digital content and assets.",
+              tech: ["Python", "FastAPI", "SQLite", "TypeScript", "Tailwind CSS"],
+              gradient: "from-red-500 to-pink-500",
+              link: "https://skgomez.vercel.app/"
+            },
           ].map((project, index) => (
             <div key={index} className="group relative">
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all duration-300 transform hover:scale-105 hover:rotate-1">
