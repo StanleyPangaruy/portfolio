@@ -56,6 +56,27 @@ function Projects() {
               gradient: "from-red-500 to-pink-500",
               link: "https://skgomez.vercel.app/"
             },
+            {
+              title: "ASEAN DIWA Data Visualization",
+              description: "Data visualization platform for ASEAN DIWA, showcasing key metrics and insights.",
+              tech: ["Python","Streamlit", "Pandas", "Plotly", "NumPy"],
+              gradient: "from-blue-500 to-pink-500",
+              link: "https://asean-diwa.vercel.app/"
+            },
+            {
+              title: "Datasette Uploader",
+              description: "A tool for uploading and managing datasets using Datasette, enabling easy data exploration.",
+              tech: ["Python","Streanlit", "Pandas", "Datasette", "SQLite"],
+              gradient: "from-blue-500 to-pink-500",
+              link: "https://datasette-uploader.vercel.app/"
+            },
+            {
+              title: "Data Parser and Importer",
+              description: "A utility for parsing and importing various data formats into a unified database structure.",
+              tech: ["Python","Streanlit", "Pandas", "Datasette", "SQLite"],
+              gradient: "from-blue-500 to-pink-500",
+              link: "https://github.com/StanleyPangaruy/data-importer-clone"
+            },
           ].map((project, index) => (
             <div key={index} className="group relative">
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all duration-300 transform hover:scale-105 hover:rotate-1">
