@@ -66,14 +66,14 @@ function Projects() {
             {
               title: "Datasette Uploader",
               description: "A tool for uploading and managing datasets using Datasette, enabling easy data exploration.",
-              tech: ["Python","Streanlit", "Pandas", "Datasette", "SQLite"],
+              tech: ["Python","Streamlit", "Pandas", "Datasette", "SQLite"],
               gradient: "from-blue-500 to-pink-500",
               link: "https://datasette-uploader.vercel.app/"
             },
             {
               title: "Data Parser and Importer",
               description: "A utility for parsing and importing various data formats into a unified database structure.",
-              tech: ["Python","Streanlit", "Pandas", "Datasette", "SQLite"],
+              tech: ["Python", "Shell", "Sheets", "Polars", "OpenPyXL"],
               gradient: "from-blue-500 to-pink-500",
               link: "https://github.com/StanleyPangaruy/data-importer-clone"
             },
